@@ -1,4 +1,5 @@
 @API_URL = https://7p0yftc4pc.execute-api.ap-northeast-1.amazonaws.com/dev
+@API_OFFILNE_URL = http://localhost:3000/dev
 
 ### create Auction
 POST {{API_URL}}/aution
@@ -6,4 +7,12 @@ Content-Type: application/json
 
 {
   "title": "Super nice car"
+}
+
+### create OFFLINE Auction
+POST {{API_OFFILNE_URL}}/aution
+Content-Type: application/json
+
+{
+  "title": "Super nice car [OFFLINE]"
 }

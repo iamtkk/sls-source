@@ -11,10 +11,15 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "serverless-bundle": "^6.1.0",
+    "serverless-offline": "^13.3.2",
     "serverless-pseudo-parameters": "^2.5.0",
     "webpack": "^5.89.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.1520.0"
+    "@aws-sdk/client-dynamodb": "^3.474.0",
+    "@aws-sdk/credential-providers": "^3.474.0",
+    "@aws-sdk/lib-dynamodb": "^3.474.0",
+    "aws-sdk": "^2.1520.0",
+    "uuid": "^9.0.1"
   }
 }
